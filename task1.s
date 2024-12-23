@@ -18,7 +18,7 @@ add x7, x5, x6
 #store in 0x10000008
 sw x7, 8(x3)
 
-#exit
-li 
-
+# Exit the program
+li a0, 10
+# System call for exit
 ecall
